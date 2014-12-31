@@ -1,0 +1,91 @@
+start MAIN ~
+mainFunction MAIN ~
+stmtsAndFunctionDefs INT REAL STRING MATRIX READ PRINT ID IF SQO FUNID FUNCTION ~
+RemainingStmts INT REAL STRING MATRIX READ PRINT ID IF SQO FUNID FUNCTION ~
+RemainingStmts END ~
+stmtOrFunctionDef INT REAL STRING MATRIX READ PRINT ID IF SQO FUNID ~
+stmtOrFunctionDef  FUNCTION ~
+stmt INT REAL STRING MATRIX ~
+stmt IF ~
+stmt READ PRINT ~
+stmt FUNID ~
+stmt ID ~
+stmt SQO ~
+functionDef FUNCTION ~
+parameters INT REAL STRING MATRIX ~
+parameters SQC ~
+parameter_list INT REAL STRING MATRIX ~
+type INT ~
+type REAL ~
+type STRING ~
+type MATRIX ~
+remainingList COMMA ~
+remainingList SQC ~
+declarationStmt INT REAL STRING MATRIX ~
+var_list ID ~
+more_ids COMMA ~
+more_ids SQC SEMICOLON ~
+assignmentStmt_type1 ID ~
+assignmentStmt_type2 SQO ~
+leftHandSide_singleVar ID ~
+leftHandSide_listVar SQO ~
+rightHandSide_type1 OP ID STR NUM RNUM SQO ~
+rightHandSide_type1 SIZE ~
+rightHandSide_type1 FUNID ~
+rightHandSide_type2 SIZE ~
+rightHandSide_type2 FUNID ~
+conditionalStmt IF ~
+elsepart ELSE ~
+elsepart ENDIF ~
+otherStmts INT REAL STRING MATRIX READ PRINT ID IF SQO FUNID ~
+otherStmts ENDIF ELSE ~
+ioStmt READ ~
+ioStmt PRINT ~
+arithmeticExpression OP ID STR NUM RNUM SQO ~
+arithmeticprime PLUS MINUS ~
+arithmeticprime CL SEMICOLON ~
+arithmeticTerm OP ID STR NUM RNUM SQO ~
+termPrime MUL DIV ~
+termPrime PLUS MINUS CL SEMICOLON ~
+factor OP ~
+factor ID STR NUM RNUM SQO ~
+addSub PLUS ~
+addSub MINUS ~
+mulDiv MUL ~
+mulDiv DIV ~
+boolExAll OP ~
+boolExAll NOT ~
+boolExAll ID NUM RNUM ~
+logicEx OP ~
+logicExPrime NOT ~
+boolEx ID NUM RNUM ~
+logicOp_1 AND ~
+logicOp_1 OR ~
+var1 ID ~
+var1 NUM ~
+var1 RNUM ~
+var ID ~
+var STR ~
+var NUM ~
+var RNUM ~
+var SQO ~
+var_next SQO ~
+var_next COMMA CL MUL DIV PLUS MINUS SEMICOLON
+relationalOp LT ~
+relationalOp LE ~
+relationalOp EQ ~
+relationalOp GT ~
+relationalOp GE ~
+relationalOp NE ~
+matrix SQO ~
+row NUM ~
+moreRows SEMICOLON ~
+moreRows SQC ~
+moreNum COMMA ~
+moreNum SEMICOLON SQC ~
+funCallStmt FUNID ~
+inputParameterList ID STR NUM RNUM SQO ~
+inputParameterList CL ~
+listVar COMMA ~
+listVar CL ~
+sizeOp SIZE ~

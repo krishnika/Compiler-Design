@@ -1,0 +1,53 @@
+ROOT	mainFunction        	          	0    	mainFunction        	----                 
+mainFunction        	stmtsAndFunctionDefs	          	0    	stmtsAndFunctionDefs	----                 
+stmtsAndFunctionDefs	declarationStmt     	          	0    	declarationStmt     	----                 
+declarationStmt     	type                	          	0    	type                	----                 
+type                	MATRIX              	          	1    	MATRIX              	matrix               
+declarationStmt     	var_list            	          	0    	var_list            	----                 
+var_list            	ID                  	          	1    	ID                  	mat1                 
+var_list            	ID                  	          	1    	ID                  	mat2                 
+stmtsAndFunctionDefs	assignmentStmt_type1	ASSIGNOP  	0    	assignmentStmt_type1	----                 
+assignmentStmt_type1	ID                  	          	1    	ID                  	mat1                 
+assignmentStmt_type1	arithmeticExpression	          	0    	arithmeticExpression	----                 
+arithmeticExpression	arithmeticTerm      	          	0    	arithmeticTerm      	----                 
+arithmeticTerm      	var                 	          	0    	var                 	----                 
+var                 	matrix              	          	0    	matrix              	----                 
+matrix              	row                 	          	0    	row                 	----                 
+row                 	NUM                 	          	1    	NUM                 	1                    
+row                 	NUM                 	          	1    	NUM                 	2                    
+row                 	NUM                 	          	1    	NUM                 	3                    
+matrix              	row                 	          	0    	row                 	----                 
+row                 	NUM                 	          	1    	NUM                 	4                    
+row                 	NUM                 	          	1    	NUM                 	5                    
+row                 	NUM                 	          	1    	NUM                 	6                    
+matrix              	row                 	          	0    	row                 	----                 
+row                 	NUM                 	          	1    	NUM                 	6                    
+row                 	NUM                 	          	1    	NUM                 	7                    
+row                 	NUM                 	          	1    	NUM                 	8                    
+stmtsAndFunctionDefs	assignmentStmt_type1	ASSIGNOP  	0    	assignmentStmt_type1	----                 
+assignmentStmt_type1	ID                  	          	1    	ID                  	mat2                 
+assignmentStmt_type1	arithmeticExpression	          	0    	arithmeticExpression	----                 
+arithmeticExpression	arithmeticTerm      	          	0    	arithmeticTerm      	----                 
+arithmeticTerm      	var                 	          	0    	var                 	----                 
+var                 	matrix              	          	0    	matrix              	----                 
+matrix              	row                 	          	0    	row                 	----                 
+row                 	NUM                 	          	1    	NUM                 	6                    
+row                 	NUM                 	          	1    	NUM                 	1                    
+row                 	NUM                 	          	1    	NUM                 	10                   
+matrix              	row                 	          	0    	row                 	----                 
+row                 	NUM                 	          	1    	NUM                 	6                    
+row                 	NUM                 	          	1    	NUM                 	10                   
+row                 	NUM                 	          	1    	NUM                 	0                    
+stmtsAndFunctionDefs	assignmentStmt_type1	ASSIGNOP  	0    	assignmentStmt_type1	----                 
+assignmentStmt_type1	ID                  	          	1    	ID                  	m                    
+assignmentStmt_type1	arithmeticExpression	PLUS      	0    	arithmeticExpression	----                 
+arithmeticExpression	arithmeticTerm      	          	0    	arithmeticTerm      	----                 
+arithmeticTerm      	var                 	          	0    	var                 	----                 
+var                 	ID                  	          	1    	ID                  	mat1                 
+arithmeticExpression	arithmeticprime     	          	0    	arithmeticprime     	----                 
+arithmeticprime     	arithmeticTerm      	          	0    	arithmeticTerm      	----                 
+arithmeticTerm      	var                 	          	0    	var                 	----                 
+var                 	ID                  	          	1    	ID                  	mat2                 
+stmtsAndFunctionDefs	ioStmt              	PRINT     	0    	ioStmt              	----                 
+ioStmt              	ID                  	          	1    	ID                  	a                    
+stmtsAndFunctionDefs	END                 	          	1    	END                 	end                  
